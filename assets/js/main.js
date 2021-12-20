@@ -70,7 +70,7 @@
 
   const total_Object2 = secondaryApp.database().ref("stock");
   total_Object2.on('value', snap => {
-    var total = snap.child("CUVE1").val() + snap.child("CUVE2").val()+snap.child("CUVE4").val()+snap.child("CUVE5").val()+snap.child("CUVE6").val()+snap.child("CUVE7").val()
+    var total = snap.child("CUVE1").val() + snap.child("CUVE2").val()+ snap.child("CUVE3").val()+snap.child("CUVE4").val()+snap.child("CUVE5").val()+snap.child("CUVE6").val()+snap.child("CUVE7").val()
     preObject_cuve3.innerText =  Math.round(total*100)/100});
 
 
