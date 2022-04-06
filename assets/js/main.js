@@ -3,11 +3,12 @@
   // Set the configuration for your app
   // TODO: Replace with your project's config object
   var config = {
-    apiKey: "AIzaSyAsWj_qXiVaT_uKXuClot87k5wkmZgn30c",
-    authDomain: "gtc-inventaire-depot.appspot.com",
-    databaseURL: "https://gtc-inventaire-depot-default-rtdb.firebaseio.com",
-    storageBucket: "gtc-inventaire-depot.appspot.com"
+    apiKey: "AIzaSyCIc74bPGlNvo41c3N0HX85yQb_ypH9atk",
+    authDomain: "gtcmap-75c80.firebaseapp.com",
+    databaseURL: "https://gtcmap-75c80-default-rtdb.firebaseio.com",
+    storageBucket:  "gtcmap-75c80.appspot.com"
   };
+  
 
   var mainApp = firebase.initializeApp(config);
 
